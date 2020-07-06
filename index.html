@@ -2,87 +2,122 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>my cv</title>
+		<title>my resume</title>	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="fontawesome/css/all.css">
 	</head>
-	<body>
-		<!-- starting of my navigation bar -->
-		<div class="navigation-bar">
-			<ul>
-				<li><a href="#about">ABOUT</a></li>
-				<li><a href="#skills">SKILLS</a></li>
-				<li><a href="#contact">CONTACT</a></li>
-			</ul>
-		</div>
+	<!-- #ffe8df bg color -->
+	<body> 
+		<!-- starting of my navigation bar nav-color-#e43f5a -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #e43f5a;">
+			<div class="container">
+				<a class="navbar-brand" href="#">Shawal Anwar</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="justify-content-center collapse navbar-collapse" id="navbarNav">
+				  <ul class="navbar-nav">
+					<li class="nav-item active">
+					  <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#contact">Contact</a>
+					</li>
+				  </ul>
+				</div>
+			</div>
+		  </nav>
 		<!-- ending  of my navigation bar -->
 
 		<!-- starting of my banner bar -->
-		<div class="banner">
-			<img src="images/banner.jpg" alt="">
-		</div>
+		  <div class="container-fluid">
+			  <img class="img-fluid banner-img" src="images/banner.jpg" alt="">
+		  </div>
 		<!-- ending  of my banner bar -->
 
 		<!-- starting of my about bar -->
-		<div class="about" name=>
-			<a href="" name="about"></a>
-			<div class="heading"><p class="heading">ABOUT</p></div>
-			<img src="images/male.svg" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque exercitationem dicta. Suscipit explicabo dolorum eligendi vel a, accusamus. Laborum reiciendis tempora tenetur repellat praesentium sint est, animi, ex voluptate.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nihil non, similique ut quisquam dolorum atque, fuga at id consectetur et numquam ullam laborum quo obcaecati aliquam. Architecto hic, officiis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at dignissimos similique maxime est ad suscipit laboriosam iure, architecto quo? Doloribus, totam autem odio eos consequatur perferendis quod illo facere.</p>
+		  <div id="about" class="container">
+			  <div class="row d-flex justify-content-center section-title col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h2 class="">ABOUT</h2>
+			  </div>
 
-		</div>
+			  <div class="row">
+				<img class="col-sm-12 col-md-2 col-lg-2 col-xl-2 avatar mx-auto d-block img-fluid align-content-between" src="images/male.svg" alt="">
+				<p class="content col-sm-12 col-md-10 col-lg-10 col-xl-10 d-flex align-items-center">Hello I am a junior web developer. An expert in HTML, CSS, Javascript, Bootstrap, jQuery, node, express, git, & Mongodb. Feel free to knock me if you need support related to web development. Excited to help, cheers! ;) </p>
+			  </div>
+		  </div>
 		<!-- ending of my about bar -->
 
 		<!-- starting of my quote bar -->
-		<div class="quote">
-			<div style="width:20%;height:0;padding-bottom:100%;position:relative;">
-				<iframe src="https://giphy.com/embed/ynx1sj5Wz2atO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-			</div>
-			<p>Don't loose your <strong>fire</strong></p>
-			<div class="quote-right">
-				<div style="width:20%;height:0;padding-bottom:100%;position:relative;">
-					<iframe src="https://giphy.com/embed/ynx1sj5Wz2atO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		  <div class="container-fluid section-title">
+			<div id="carouselExampleControls" class="row align-items-center carousel slide" data-ride="carousel">
+				<div class="container">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+						  <p class="">Don't loose your fire</p>
+						</div>
+						<div class="carousel-item">
+						  <p>Patience is the key.</p>
+						</div>
+						<div class="carousel-item">
+						  <p>Love your work</p>
+						</div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
 				</div>
-			</div>
-		</div>
-		
+			  </div>
+		  </div>
 
 		<!-- ending of my quote bar -->
 
 
 
 		<!-- starting of my skill bar -->
-		<div class="skill">
-			<a href="" name="skills"></a>
-			<div class="skill-heading">
-				<p>My Skills</p>
+		<div class="container">
+			<div class="row d-flex justify-content-center section-title col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h2  id="skills">My Skills</h2>
 			</div>
-
-			<div class="skill-section-1">
-				<div class="skill-section-1-heading"><p>Web Developer</p></div>
-				<img src="images/tu-tv.svg" alt="">
-				<div class="skill-section-1-p">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error itaque excepturi inventore aspernatur consectetur doloribus, non maiores impedit enim nulla voluptas dolor quisquam culpa ipsum, sint blanditiis similique, doloremque delectus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae voluptate numquam expedita eum necessitatibus impedit odit, reiciendis iusto voluptatum! Rerum harum ipsum vel iste cum, temporibus ullam veniam placeat corrupti.</p>
+			<div class="row">
+				<img src="images/tu-tv.svg" alt="" class="img-responsive col-sm-12 col-md-2 col-lg-2 col-xl-2 mx-auto d-block avatar  img-fluid text-center">
+				<div class="content col-sm-12 col-md-10 col-lg-10 col-xl-10 d-flex align-items-center">
+					<p>I am good at web development. Specially Fron-end-development. I also have some knowledge about Back-end-development. Besides I have some basic knowledge of Adobe illustrator. Technology is changing rapidly new inventions are growing.  So I think my best skill is, I have a mentality to learn new skills. I am eager to learn and explore different arena of web development.</p>
 				</div>
 			</div>
-			
 		</div>
-		
 		<!-- ending of my skill bar -->
 
 		<!-- starting of my contact bar -->
-		<div class="contact">
-			<a href="" name="contact"></a>
-			<div class="contact-heading"><p>CONTACT ME</p></div>
-			<ul>
-				<li><i class="fas fa-phone-square-alt"><p>+880 173 273 9797</p></i></li>
-				<li><i class="fas fa-envelope-open"></i><p>shawalanwar69@gmail.com</p></li>
-				<li><i class="fas fa-map-marker-alt"></i><p>104/A Panchlaish, Chittagong, Bangladesh</p></li>
-			</ul>
-		</div>
+			<div id="contact" class="container-fluid footer-bg">
+				<div class="row">
+					<div class="container col-sm-12 col-md-12 col-lg-12 col-xl-12 section-title">
+						<h2>Contact me</h2>
+					</div>
+				</div>
+				<div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<div class="container justify-content-center">
+						<p><span class="contact">Contact me: </span> shawalanwar69@gmail.com</p>
+						<p><span class="contact">Visit: </span> https://github.com/shawal6969</p>
+						<a class="contact-link"href="https://www.linkedin.com/in/shawal-chowdhury-2a3652141/"><i class= "contact fab fa-linkedin"></i>My linkedin profile</a>
+					</div>
+				</div>
+				
+			</div>
 		<!-- ending of my contact bar -->
 		
-
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	</body>
 	</html>	
