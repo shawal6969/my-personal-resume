@@ -42,40 +42,68 @@ body{
 	color: black;
 }
 
-@media (min-width: 200px) {  
+@media (min-width: 200px) { 
+	body{
+		font-size: 100px;
+	} 
 	.carousel {font-size: 30px;} /*1rem = 16px*/
 	.avatar{
 		width: 10px;
 		height: auto;
 		
 	}
+	.avatar{
+		width: 30px;
+		height: auto;
+	}
 	.content{
-		font-size: 30px;
+		font-size: 50px;
+	}
+	.heading{
+		font-size: 60px;
+	}
+	.nav-brand{
+		font-size: 70px;
+	}
+	.navbar-toggler-icon {
+		width: 3.5em;
+		height: 3.5em;
 	}
   }
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
-	.carousel {font-size: 30px;} /*1rem = 16px*/
-	.avatar{
-		width: 10px;
-		height: auto;
-		
+@media (min-width: 544px) { 
+	.nav-brand{
+		font-size: 70px;
+	} 
+	.navbar-toggler-icon {
+		width: 3.5em;
+		height: 3.5em;
 	}
+	.carousel {font-size: 55px;} /*1rem = 16px*/
 	.content{
-		font-size: 30px;
+		font-size: 50px;
+	}
+	.avatar{
+		width: 30px;
+		height: auto;
+	}
+	.contact-content{
+		font-size: 37px;
+		text-align: center;
+	}
+	.heading{
+	font-size: 60px;
 	}
   }
    
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
   @media (min-width: 768px) {  
-	.carousel {font-size: 30px;} /*1rem = 16px*/
-	.avatar{
-		width: 10px;
-		height: auto;
-		
-	}
+	.carousel {font-size: 55px;} /*1rem = 16px*/
 	.content{
-		font-size: 25px;
+		font-size: 55px;
+	}
+	.contact-content{
+		font-size: 37px;
 	}
   }
    
@@ -92,6 +120,9 @@ body{
 	 /*1rem = 16px*/   
 	 .content{
 		font-size: 16px;
-	} 
+	}
+	.contact-content{
+
+	}
   }
   
