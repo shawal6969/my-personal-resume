@@ -45,7 +45,7 @@ body{
 @media (min-width: 200px) {  
 	.carousel {font-size: 30px;} /*1rem = 16px*/
 	.avatar{
-		width: 40px;
+		width: 10px;
 		height: auto;
 		
 	}
@@ -57,7 +57,7 @@ body{
 @media (min-width: 544px) {  
 	.carousel {font-size: 30px;} /*1rem = 16px*/
 	.avatar{
-		width: 40px;
+		width: 10px;
 		height: auto;
 		
 	}
@@ -70,7 +70,7 @@ body{
   @media (min-width: 768px) {  
 	.carousel {font-size: 30px;} /*1rem = 16px*/
 	.avatar{
-		width: 30px;
+		width: 10px;
 		height: auto;
 		
 	}
